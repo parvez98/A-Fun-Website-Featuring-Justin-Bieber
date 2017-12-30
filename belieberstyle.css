@@ -1,0 +1,44 @@
+		body{
+			font-family: Bookman Old Style;
+			background-image:url("jbpurpose.jpg"), url("jbblack.jpg");
+			background-repeat: repeat-x, no-repeat; 	
+			background-position: bottom, top;
+			}
+		h1{
+			font-family: Lucida Calligraphy;
+			
+			font-size: 100px;
+			text-align: center;
+			color: purple;
+			}
+		nav{
+			margin: auto;
+			width: 100%;
+			max-width: 1000px;
+		}
+		ul{
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			width: 100%; 
+		}
+		li{
+			float: left;
+			margin: 0;
+			padding: 0;
+			height: 50px;
+			line-height: 50px;
+			background-color: purple;
+			width: 25%;
+			text-align: center;
+		}
+		li a{
+			font-family: Lucida Calligraphy;
+			text-decoration: none;
+			color: white;
+			font-size: 20px;
+		}
+		li a:hover{
+			color: purple;
+		}
+		

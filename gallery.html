@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="icon.ico" />
+	<title>Gallery</title>
+	<style>
+		body{
+			background-image:url("background.jpg");
+		}
+		#hero{
+				width: 100%;
+			height: 490px;
+			background-color: ;
+			text-align: center;
+			clear: both;
+			border:;
+		}
+		#hero2{
+			position: absolute;
+			top: 950px;
+			right: 5px;
+			
+		}
+		#hero3{
+			position: absolute;
+			top: 1600px;
+			left: 10px;
+
+		}
+		#hero4{
+			position: absolute;
+			top: 1600px;
+			right: 5px;
+		}
+		h3,h4,h5{
+			font-size: 35px;
+			font-family: Bernard MT;
+		}
+		h2{
+			font-size: 35px;
+			font-family: Bernard MT;
+		}
+		h3{
+			position: absolute;
+			top: 840px;
+			right: 10px;
+		}
+		h4{
+			position: absolute;
+			top: 1500px;
+			left: 10px;
+		}
+		h5{
+			position: absolute;
+			top: 1492px;
+			right: 10px;	
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Welcome Beliebers</h1>
+	 <nav>
+	 	<ul>
+	 		<li><a href="beliebers.html">Home</a></li>
+	 		<li><a href="newsbeliebers.html">News</a></li>
+	 		<li><a href="playbeliebers.html">Music</a></li>
+	 		<li><a href="joinusbeliebers.html" target="_blank">Join Us</a></li>
+	 	</ul>
+	 </nav>
+	 <section id="hero">
+	 	<img src="jbgallery1.jpg">
+	 </section>
+	 <br></br>
+	 <h2>While The Purpose Tour Is Going On.....</h2>
+	 	<section id="hero1">
+	 	<div class="slider" style="max-width:800px">
+		<img class="mySlides" src="jb.jpg" style="width:70%">
+  		<img class="mySlides" src="jb1.jpg" style="width:70%">
+  		<img class="mySlides" src="jb2.jpg" style="width:70%">
+  		<img class="mySlides" src="jb3.jpg" style="width:70%">
+  		<img class="mySlides" src="jb4.jpg" style="width:70%">
+  		<img class="mySlides" src="jb5.jpg" style="width:70%">
+	 </section>
+	 <br></br>
+	 <br></br>
+	 <br></br>
+	 <br></br>
+	 <br></br>
+	 <script>
+	var slideIndex = 0;
+	carousel();
+
+	function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+	}	
+	</script>
+	<h3>Triumph At Awards Shows........</h3>
+		<section id="hero2">
+			<div class="slider1" style="max-width: 490px" >
+			<img class="mySlides1" src="a4.jpg" style="width: 100%" >
+			<img class="mySlides1" src="a7.jpg" style="width: 100%" >
+			</div>
+		</section>
+		 <script>
+	var slideIndex1 = 0;
+	carousel1();
+
+	function carousel1() {
+    var i;
+    var x = document.getElementsByClassName("mySlides1");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex1++;
+    if (slideIndex1 > x.length) {slideIndex1 = 1} 
+    x[slideIndex1-1].style.display = "block"; 
+    setTimeout(carousel1, 2000); // Change image every 2 seconds
+	}	
+	</script>
+	<h4>Release Of Purpose...</h4>
+		<section id="hero3">
+			<div class="slider2" style="max-width: 800px">
+				<img class="mySlides2" src="p7.png" style="width: 70%">
+				<img class="mySlides2" src="p1.jpg" style="width: 100%">
+				<img class="mySlides2" src="p2.jpg" style="width: 70%">
+				<img class="mySlides2" src="p8.jpg" style="width: 70%">
+				<img class="mySlides2" src="p9.png" style="width: 70%">
+
+			</div>
+		</section>
+	 <script>
+	var slideIndex2 = 0;
+	carousel2();
+
+	function carousel2() {
+    var i;
+    var x = document.getElementsByClassName("mySlides2");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex2++;
+    if (slideIndex2 > x.length) {slideIndex2 = 1} 
+    x[slideIndex2-1].style.display = "block"; 
+    setTimeout(carousel2, 2000); // Change image every 2 seconds
+	}	
+	</script>
+	 <br></br>
+	 <br></br>
+	 <br></br>
+	 <br></br>
+	 <br></br>
+	 <h5>Some Other Stuff....</h5>
+	 <section id="hero4">
+	 	<div class="slider3" style="max-width: 515px">
+	 		
+	 		<img class="mySlides3" src="s2.png" style="width: 95%" align="right">
+	 		<img class="mySlides3" src="s3.jpg" style="width: 95%" align="right">
+	 		<img class="mySlides3" src="s4.png" style="width: 95%" align="right">
+	 		<img class="mySlides3" src="s5.png" style="width: 95%" align="right">
+	 	</div>
+	 </section>
+	 <script>
+	 var slideIndex3 = 0;
+	carousel3();
+
+	function carousel3() {
+    var i;
+    var x = document.getElementsByClassName("mySlides3");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex3++;
+    if (slideIndex3> x.length) {slideIndex3 = 1} 
+    x[slideIndex3-1].style.display = "block"; 
+    setTimeout(carousel3, 2000); // Change image every 2 seconds
+	}
+	</script>
+	 </header>
+</body>
+</html>
